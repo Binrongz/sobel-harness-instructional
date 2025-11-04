@@ -1,0 +1,20 @@
+cat > .gitignore << 'EOF'
+# Large data files
+data/
+sobel_results/
+
+# Build directory
+build/
+*.o
+*.a
+
+# Python cache
+__pycache__/
+*.pyc
+EOFallfiles.txt
+*.pub
+*.key
+id_*
+data/zebra-gray-int8-4x
+data/correct_results_4x.dat
+sobel_results/*
